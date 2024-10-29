@@ -1,0 +1,93 @@
+body {
+    background-image: url('IMG_1626.JPG');
+    background-repeat: no-repeat;
+    background-size:cover; /* Makes the image cover the whole page */
+    background-position: center;  /* Centers the image */
+    height: 100vh;
+    margin: 0;
+}
+h1 {
+    color:rgb(195, 0, 255);
+    font-style: italic;
+    text-align: center;
+    font-size: 350%;
+}
+h2 {
+    color:rgb(195, 0, 255);
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    font-size: 350%;
+
+}
+
+p {
+    color: rgb(195, 0, 255);
+    background-color: hsl(230, 100%, 49%);
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    font-size: 350%;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+p:hover {
+    background-color: hsl(230%, 100%, 49%); /* Darker background on hover */
+    color: #fff; /* Change text color on hover */
+    transform: scale(1.5); /* Slightly enlarge on hover */
+}
+
+
+
+
+
+
+
+#increment-btn {
+    color: rgb(195, 0, 255);
+    background-color: hsla(0, 3%, 26%, 0.404);
+    font-style: italic;
+    text-align: center;
+    margin-left: 40%;
+    font-size: xx-large;
+    font-size: 350%;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+#increment-btn:hover {
+    background-color: hsla(0, 3%, 26%, 0.8); /* Darker background on hover */
+    color: #fff; /* Change text color on hover */
+    transform: scale(1.5); /* Slightly enlarge on hover */
+}
+
+#save-btn {
+    color:rgb(195, 0, 255);
+    background-color: hsla(0, 3%, 26%, 0.404);
+font-style: italic;
+text-align: center;
+margin-left: 40%;
+font-size: xx-large;
+font-size: 350%;
+}
+
+#save-btn:hover {
+    background-color: hsla(0, 3%, 26%, 0.8);
+    color: #fff;
+    transform: scale(1.5);
+}
+
+#reset-btn {
+    color:rgb(195, 0, 255);
+    background-color: hsla(0, 3%, 26%, 0.404);
+font-style: italic;
+text-align: center;
+margin-left: 40%;
+font-size: xx-large;
+font-size: 350%;
+}
+
+#reset-btn:hover {
+    background-color: hsla(0, 3%, 26%, 0.8);
+    color: #fff;
+    transform: scale(1.5);
+}
